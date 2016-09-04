@@ -7,8 +7,9 @@
   <link rel="icon" href="./android.png" type="image/gif" sizes="16x16">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
@@ -41,13 +42,13 @@
             <h2 class="center light-black-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Memebers</h5>
 
-            <p class="light">  <div class="collection">
-    <a href="https://www.facebook.com/AffanAhmadFahmi" class="collection-item">Affan Ahmad Fahmi</span></a>
-    <a href="https://www.facebook.com/chinmoy.das.5458498" class="collection-item">Chinmoy Das</span></a>
-    <a href="https://www.facebook.com/nitish.verma.180" class="collection-item">Nitish Verma</span></a>
-    <a href="#!" class="collection-item">Ratul Ghosh<span class="badge">Coordinator</span></a>
-    <a href="https://www.facebook.com/satyam.poddar.3" class="collection-item">Satyam Poddar<span class="badge">Coordinator</span></a>
-    <a href="https://www.facebook.com/sayantan.chatterjee3" class="collection-item">Sayantan Chatterjee</span></a>
+            <p class="light">  <div class="collection" id="element_to_pop_up">
+    <a href="#" class="collection-item" id="affan">Affan Ahmad Fahmi</span></a>
+    <a href="#" class="collection-item" id="chy">Chinmoy Das</span></a>
+    <a href="#" class="collection-item" id="nit">Nitish Verma</span></a>
+    <a href="#" class="collection-item" id="unknown">Ratul Ghosh<span class="badge">Coordinator</span></a>
+    <a href="#" class="collection-item" id="podar">Satyam Poddar<span class="badge">Coordinator</span></a>
+    <a href="#" class="collection-item" id="syan">Sayantan Chatterjee</span></a>
   </div></p>
           </div>
         </div>
@@ -72,7 +73,7 @@
             <h5 class="center">Courses</h5>
 
             <p class="light">  <div class="collection">
-    <a href="https://geekhaven.iiita.ac.in/events/" class="collection-item">APP-D workshop<span class="badge">2nd September, 2016 </span></a>
+    <a href="https://geekhaven.iiita.ac.in/events/" class="collection-item">APP-D workshop ( 2nd September, 2016 ) </span></a>
     <a href="https://geekhaven.iiita.ac.in/events/" class="collection-item">Workshop for trihacker<span class="new badge"> </span></a>
   </div></p>
           </div>
@@ -113,12 +114,88 @@
       </div>
     </div>
   </footer>
+  <!--AFFAN-->
+  <div class="affan" id="popup">
+  <div class="overlay"></div>
+  <div class="box" style="background-image: url('./affan.jpg');      background-repeat:   no-repeat; background-size: cover;">
+     <span><img src="close.png" width="20px"></span>
+     <br><h5 class="header col s12 light">Affan Ahmad Fahmi</h5>
+     <p class="header col s12 light">
+         <br>"I do not believe in excuses. I believe in hard work as the prime solvent of life's problems."
+<br><br>
+Hi guys,<br><br>
+I am Affan Ahmad Fahmi, an undergradute student at IIIT Allahabad.I am a developer who dreams to build services which are useful to people around me. I believe in working hard for constructive, innovative and creative projects. I have been developing android apps for about 2 years now. And from my experience, app development is one of those skills that are easy to learn, hard to master. Damn hard to master!.
+Currently, I serve GEEKHAVEN as the member of the App Dev Wing.
+We, at Geekhaven, try to encourage freshers to pursue their interests apart from acadamics. Here, we learn and build together.<br><br><br></p>
+ </div>
+ </div>
+ <!--podar-->
+ <div class="podar" id="popup">
+ <div class="overlay"></div>
+ <div class="box" style="background-image: url('./podar.jpg');      background-repeat:   no-repeat; background-size: cover;">
+    <span><img src="close.png" width="20px"></span>
+    <br><h5 class="header col s12 light">Satyam Poddar</h5>
+    <p class="header col s12 light">
+        <br>"Find what makes your heart sing, and create your own music."
+<br><br>
+Hi guys,<br><br>
+I am Satyam Poddar, an undergradute student at IIIT Allahabad. I have been developing android apps for about 3 years now. And from my experience, there is no end to it.
+Some of the apps that I and my team developed, include, EFFervescence'15 and Aparoksha'16. Currently, I serve GEEKHAVEN as the Coordinator of the App Dev Wing.
+We, at Geekhaven, try to encourage freshers to pursue their interests apart from acadamics. Here, we learn and build together.</p>
+</div>
+</div>
+<!--sayantan-->
+<div class="syan" id="popup">
+<div class="overlay"></div>
+<div class="box" style="background-image: url('./syn.jpg');      background-repeat:   no-repeat; background-size: cover;">
+   <span><img src="close.png" width="20px"></span>
+   <br><h5 class="header col s12 light">Sayantan</h5>
+   <p class="header col s12 light">
+Sayantan is the "jack of all trades" guy.
+He reads a LOT, and he knows a thing or two on almost every topic you think of.
+And he codes a decent bit, barely bordering on the "geek" level.
+Being a passionate sketcher, he is all about the UI of a project. He loves to design, and likes to impose his sense of looks and feel on the apps he makes.
 
-
+He has a typical "Bengali" way of going on about things: primarily lazy, yet requiring half the time to complete the job than everybody else.
+Also obsessed with music and a good singer, so don't be surprised if you find him humming to an obscure tune even in the worst of situations.
+</div>
+</div>
+<!--chynmoy-->
+<div class="chy" id="popup">
+<div class="overlay"></div>
+<div class="box">
+   <span><img src="close.png" width="20px"></span>
+   <br><h5 class="header col s12 light">Chinmoy Das</h5>
+   <p class="header col s12 light">
+NOT FOUND!!</p>
+</div>
+</div>
+<!--nitesh-->
+<div class="nit" id="popup">
+<div class="overlay"></div>
+<div class="box" style="background-image: url('./nit.jpg');      background-repeat:   no-repeat; background-size: cover;">
+   <span><img src="close.png" width="20px"></span>
+   <br><h5 class="header col s12 light">Nitish Verma</h5>
+   <p class="header col s12 light">
+<br><br>
+Hi guys,<br><br>
+I hail from Lucknow and I'm proud to say that. Honesty and good work ethics is our keystone. Also, I can be relied upon and will always try to provide every possible help.
+Apart from this, I'm fun loving, playful and most often at my best at the football field or with the camera in hand.</p><br><br><br><br>
+</div>
+</div>
+  <!--unknown-->
+  <div class="unknown" id="popup">
+      <div class="overlay"></div>
+      <div class="box">
+         <span><img src="close.png" width="20px"></span>
+         <br><h5 class="header col s12 light">Ratul Ghosh</h5>
+         <p class="header col s12 light">
+      NOT FOUND!!</p>
+      </div>
+      </div>
+    </body>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
-  </body>
 </html>
